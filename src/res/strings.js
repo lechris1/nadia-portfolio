@@ -1,0 +1,187 @@
+const homeStrings = {
+    intro: {
+        title: "A Small but Mighty Wind",
+        body: `
+            Nadia Jean is a multi-instrumentalist, specializing in Saxophones 
+            and Electric Wind Instrument (EWI). Her main body of work has been 
+            in live musical theatre pit orchestras, but she is equally capable 
+            in studio, small combos, and big bands. Her musical interests cover 
+            a wide range of genres from Jazz to Electronica.`
+    },
+    background: {
+        title: "Background",
+        body1: `
+            In her school years which included a `,
+        body2: `
+             involving the 
+            recording of a solo saxophone "quartet," Nadia was awarded an International 
+            Baccalaureate Diploma upon graduation from Grand Rapids City High/Middle School. 
+            She currently attends Aquinas College, concentrating on music performance and 
+            business administration.\n
+            She has performed in the orchestra pit at `,
+        body3: `
+             at 
+            Grand Rapids Civic Theater, Shadblow Theatre, Cornerstone University Performing Arts 
+            Center, Gezon Auditorium at Calvin College, The Meijer Theater in the Grand Rapids 
+            Public Museum, Ladies' Literary Club Theater, Ottawa Hills High School, and City 
+            High/Middle School.`,
+        linkedProject: `10th grade project`,
+        linkedResume: `23 musical theatre productions`
+    }
+}
+
+const resumeStrings = {
+    intro: {
+        body: `
+            With a career of 23 musical theatre productions so far, Nadia is able to double on 
+            any combination of woodwind voices as well a wide range of other sonic possibilities. 
+            She commands a full array of virtual instruments on her EWI, including a complete 
+            collection of extremely realistic acoustic-modeled flutes, clarinets, and double reeds. 
+            Capable in any pit situation, Nadia has the unique ability to perform charts involving 
+            ordinarily large instruments in very size-constrained spaces.`
+    },
+    instruments: {
+        title: `Nadia's Instruments:`,
+        saxes: `Baritone, Tenor, Alto, and Soprano Saxophones`,
+        ewi: `Akai EWI 4000s with Cantabile tablet system with:`,
+        swamflutes: `SWAM Flutes (Bass Flute, Alto Flute, Flute, Piccolo)`,
+        swamclarinets: `SWAM Clarinets (Bass Clarinet, A and Bb Clarinets)`,
+        swamdoubles: `SWAM Double Reeds (Oboe,  English Horn, Bassoon, Contrabassoon)`,
+        komplete: `Native Instruments Komplete (including Kontakt, Reaktor, Massive and Absynth)`,
+        arturia: `Arturia V-Collection including (Synclavier, Fairlight CMI, Mini+Modular Moog, 
+            Roland JP8,  Oberheim SEM+Matrix12, Yamaha DX7, Prophet 5+VS, ARP 2600)`
+    },
+    musicals: {
+        honk2: {
+            yearlocation: `August 2018 - stageGR, at Calvin College's Gezon Auditorium`,
+            title: `Honk!`,
+            instruments: `Reeds 1 and 2 - Alto sax and EWI (flute, piccolo, and clarinet)`
+        },
+        musicman: {
+            yearlocation: `July 2018 - Shadblow Theatre, at Jenison Performing Arts Center`,
+            title: `The Music Man`,
+            instruments: `Reed 5 - EWI (clarinet, bassoon, and bass saxophone)`
+        },
+        jazzcamp: {
+            yearlocation: `June 2018 - Aquinas College, Art and Music Center`,
+            title: `Aquinas College Jazz Camp`,
+            instruments: `Office Assistant and Camp Counselor`
+        },
+        notredame: {
+            yearlocation: `April 2018 - stageGR, at Calvin College's Gezon Auditorium`,
+            title: `The Hunchback of Notre Dame`,
+            instruments: `Reed 1 - Soprano sax and EWI (flute, piccolo, oboe, and clarinet)`
+        },
+        dreamcoat2: {
+            yearlocation: `November 2017  - stageGR and Cornerstone University, Matthews Performing Arts Center`,
+            title: `Joseph and the Amazing Technicolor Dreamcoat`,
+            instruments: `Reeds 1 and Reeds 2 combined – Alto saxophone and EWI (flute and clarinet, oboe and cor anglais)`
+        },
+        willywonka: {
+            yearlocation: `​August 2017  - stageGR, at Calvin College's Gezon Auditorium`,
+            title: `Willy Wonka and the Chocolate Factory`,
+            instruments: `Reeds- EWI (flute, oboe, clarinet, bassoon, and sound effects)`
+        },
+        bringiton: {
+            yearlocation: `July 2017  - stageGR, at Calvin College's Gezon Auditorium`,
+            title: `"Bring It On" the Musical`,
+            instruments: `Keyboard 2`
+        },
+        spellingbee: {
+            yearlocation: `May 2017  - stageGR, at Meijer Theater in the Grand Rapids Public Museum`,
+            title: `The 25th Annual Putnam County Spelling Bee`,
+            instruments: `Reeds – Alto saxophone and EWI (flute, oboe, and clarinet)​`
+        },
+        charliebrown: {
+            yearlocation: `December 2016  - stageGR, at Meijer Theater in the Grand Rapids Public Museum`,
+            title: `You’re a Good Man, Charlie Brown`,
+            instruments: `Reeds – Soprano and Alto saxophones and EWI (piccolo, flute, clarinet, and sound effects)`
+        },
+        seussical2: {
+            yearlocation: `October 2016  - stageGR, at Meijer Theater in the Grand Rapids Public Museum`,
+            title: `Seussical the Musical`,
+            instruments: `Reeds 1  – Soprano and Alto saxophones and EWI (piccolo, flute, and clarinet)`
+        },
+        thirteen: {
+            yearlocation: `August 2016  - stageGR, at Calvin College's Gezon Auditorium`,
+            title: `"13" the Musical`,
+            instruments: `Keyboard 2 and sound effects`
+        },
+        fame: {
+            yearlocation: `June 2016  - stageGR, at The Ladies Literary Club Auditorium`,
+            title: `FAME - the Musical`,
+            instruments: `Reed 1 – Soprano, Alto, and Tenor saxophone and EWI (clarinet, flute, and sound effects)`
+        },
+        msboa: {
+            yearlocation: `2016 - Grand Rapids Festival of the Arts`,
+            title: `MSBOA District-10 All-Star Jazz Band`,
+            instruments: `Tenor Saxophone`
+        },
+        intothewoods: {
+            yearlocation: `February 2016  - stageGR, at The Ladies Literary Club Auditorium`,
+            title: `Into The Woods`,
+            instruments: `Custom – EWI (flute, piccolo, Bb and A clarinet, bassoon, trumpet, 
+                french horns, sound effects, and The Giant's dialogue)`
+        },
+        lesmis: {
+            yearlocation: `November 2015 - Grand Rapids City High School`,
+            title: `Les Misérables`,
+            instruments: `Reed 1 book – Alto saxophone and EWI (piccolo, flute, clarinet, and musket sound effects)`
+        },
+        footloose2: {
+            yearlocation: `July 2015  - Grand Rapids Civic Theatre`,
+            title: `Footloose - the Musical`,
+            instruments: `Reed 1 book – Tenor and Bari saxophones and EWI (flute, clarinet, and Moog bass)`
+        },
+        hsm: {
+            yearlocation: `June 2015 - The Vocal Music Workshop, at City High School`,
+            title: `Disney’s High School Musical`,
+            instruments: `EWI (sound effects and parts of Keyboard two), Alto saxophone "street musician" walk-on role`
+        },
+        hellodolly: {
+            yearlocation: `January 2015 - The Vocal Music Workshop, at City High School`,
+            title: `Hello Dolly`,
+            instruments: `Reed 1 book – Alto saxophone and EWI (clarinet, flute, piccolo, and sound effects)`
+        },
+        honk1: {
+            yearlocation: `November 2014 - Grand Rapids City High School`,
+            title: `Honk!`,
+            instruments: `Reed 1 book – Alto saxophone and EWI (clarinet, flute, piccolo, and sound effects)`
+        },
+        footloose1: {
+            yearlocation: `June 2014 - The Vocal Music Workshop, at City High School`,
+            title: `Footloose - the Musical`,
+            instruments: `Tenor and Bari saxophones, and EWI (clarinet and Moog bass) and EWI flute for rehearsals`
+        },
+        howtosucceed: {
+            yearlocation: `January 2014 - The Vocal Music Workshop, at City High School`,
+            title: `How to Succeed in Business Without Really Trying`,
+            instruments: `Alto and Bari saxophones`
+        },
+        thisisland: {
+            yearlocation: `November 2013 - Grand Rapids City High School`,
+            title: `Once On This Island`,
+            instruments: `Soprano saxophone`
+        },
+        seussical1: {
+            yearlocation: `June 2013 - The Vocal Music Workshop, at Ottawa Hills High School`,
+            title: `Seussical the Musical`,
+            instruments: `Alto and Tenor saxophones`
+        },
+        annie: {
+            yearlocation: `March 2013 - Grand Rapids City High School`,
+            title: `Annie`,
+            instruments: `Alto Saxophone`
+        },
+        dreamcoat1: {
+            yearlocation: `November 2012 - Grand Rapids City High School`,
+            title: `Joseph and The Amazing Technicolor Dreamcoat`,
+            instruments: `Alto Saxophone`
+        }
+    }
+}
+
+export {
+    homeStrings,
+    resumeStrings,
+}

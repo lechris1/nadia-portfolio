@@ -66,19 +66,19 @@ const resumeStrings = {
             yearlocation: `July 2018 - Shadblow Theatre, at Jenison Performing Arts Center`,
             title: `The Music Man`,
             instruments: `Reed 5 - EWI (clarinet, bassoon, and bass saxophone)`,
-            image: `logo.svg`
+            image: `baseimage.jpg`
         },
         {
             yearlocation: `June 2018 - Aquinas College, Art and Music Center`,
             title: `Aquinas College Jazz Camp`,
             instruments: `Office Assistant and Camp Counselor`,
-            image: `logo.svg`
+            image: `baseimage.jpg`
         },
         {
             yearlocation: `April 2018 - stageGR, at Calvin College's Gezon Auditorium`,
             title: `The Hunchback of Notre Dame`,
             instruments: `Reed 1 - Soprano sax and EWI (flute, piccolo, oboe, and clarinet)`,
-            image: `logo.svg`
+            image: `baseimage.jpg`
         },
         {
             yearlocation: `November 2017  - stageGR and Cornerstone University, Matthews Performing Arts Center`,
@@ -132,7 +132,7 @@ const resumeStrings = {
             yearlocation: `2016 - Grand Rapids Festival of the Arts`,
             title: `MSBOA District-10 All-Star Jazz Band`,
             instruments: `Tenor Saxophone`,
-            image: `logo.svg`
+            image: `baseimage.jpg`
         },
         {
             yearlocation: `February 2016  - stageGR, at The Ladies Literary Club Auditorium`,
@@ -199,7 +199,7 @@ const resumeStrings = {
             yearlocation: `March 2013 - Grand Rapids City High School`,
             title: `Annie`,
             instruments: `Alto Saxophone`,
-            image: `kannie.jpg`
+            image: `kannie.png`
         },
         {
             yearlocation: `November 2012 - Grand Rapids City High School`,

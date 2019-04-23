@@ -1,0 +1,41 @@
+.fadeInRight {
+    -webkit-animation: fadeInRight 2s;
+    /* Safari 4+ */
+    -moz-animation: fadeInRight 2s;
+    /* Fx 5+ */
+    -o-animation: fadeInRight 2s;
+    /* Opera 12+ */
+    animation: fadeInRight 2s;
+    /* IE 10+, Fx 29+ */
+}
+
+.fadeInLeft {
+    -webkit-animation: fadeInLeft 2s;
+    /* Safari 4+ */
+    -moz-animation: fadeInLeft 2s;
+    /* Fx 5+ */
+    -o-animation: fadeInLeft 2s;
+    /* Opera 12+ */
+    animation: fadeInLeft 2s;
+    /* IE 10+, Fx 29+ */
+}
+
+.musical {
+    display: flex;
+    align-items: center;
+    margin: 10px;
+}
+
+.musical div  {
+    margin: 10px;
+    align-content: center;
+}
+
+.center-cropped {
+    object-fit: cover;
+    /* Do not scale the image */
+    object-position: center;
+    /* Center the image within the element */
+    height: 100px;
+    width: 100px;
+}

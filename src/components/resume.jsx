@@ -1,55 +1,44 @@
 import React, { Component } from 'react';
-// import '../css/resume.css';
+import '../css/resume.css';
 import { resumeStrings } from '../res/strings';
+import { Waypoint } from 'react-waypoint';
 
 class Musical extends Component {
+    constructor(props) {
+        super(props);
+        this.state = {
+            load: false
+        };
+    }
+
+    loadMusical() {
+        this.setState({
+            load: true
+        });
+    }
+
     render() {
-        let fadeLeft = this.props.fadeLeft ? 'fadeInLeft' : 'fadeInRight';
+        let fadeDirection = this.props.fadeLeft ? 'fadeInLeft' : 'fadeInRight';
+        let load = this.state.load ? "animated " + fadeDirection : "animate-box";
         return (
-            <div className={"animated " + fadeLeft + " delay-1s"}>
-                <p>{this.props.musical.yearlocation}<br/>
-                {this.props.musical.title}<br/>
-                {this.props.musical.instruments}</p>
+            <div >
+                <Waypoint
+                    onEnter={() => this.loadMusical()}
+                />
+                <div className={load + " musical"} data-animate-effect={fadeDirection}>
+                    <div>
+                        <img className="center-cropped" src={require("../images/" + this.props.musical.image)} />
+                    </div>
+                    <div>
+                        <p>{this.props.musical.yearlocation}<br />
+                            {this.props.musical.title}<br />
+                            {this.props.musical.instruments}</p>
+                    </div>
+                </div>
             </div>
         );
     }
 }
-
-// var contentWayPoint = function() {
-//     var i = 0;
-//     $('.animate-box').waypoint( function( direction ) {
-
-//         if( direction === 'down' && !$(this.element).hasClass('animated') ) {
-            
-//             i++;
-
-//             $(this.element).addClass('item-animate');
-//             setTimeout(function(){
-
-//                 $('body .animate-box.item-animate').each(function(k){
-//                     var el = $(this);
-//                     setTimeout( function () {
-//                         var effect = el.data('animate-effect');
-//                         if ( effect === 'fadeIn') {
-//                             el.addClass('fadeIn animated');
-//                         } else if ( effect === 'fadeInLeft') {
-//                             el.addClass('fadeInLeft animated');
-//                         } else if ( effect === 'fadeInRight') {
-//                             el.addClass('fadeInRight animated');
-//                         } else {
-//                             el.addClass('fadeInUp animated');
-//                         }
-
-//                         el.removeClass('item-animate');
-//                     },  k * 200, 'easeInOutExpo' );
-//                 });
-                
-//             }, 100);
-            
-//         }
-
-//     } , { offset: '85%' } );
-// };
 
 class Resume extends Component {
     render() {

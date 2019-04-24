@@ -22,7 +22,7 @@ class Content extends Component {
         switch (this.state.currentComponent) {
             case "Home":
                 component = <Home
-                    onClick={(nextComponent) => this.props.setComponent(nextComponent)}
+                    onClick={(nextComponent) => this.setComponent(nextComponent)}
                 />
                 break;
             case "Resume":

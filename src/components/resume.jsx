@@ -18,14 +18,13 @@ class Musical extends Component {
     }
 
     render() {
-        let fadeDirection = this.props.fadeLeft ? 'fadeInLeft' : 'fadeInRight';
-        let load = this.state.load ? "animated " + fadeDirection : "animate-box";
+        let load = this.state.load ? "animated fadeInRight" : "animate-box";
         return (
             <div >
                 <Waypoint
                     onEnter={() => this.loadMusical()}
                 />
-                <div className={load + " musical"} data-animate-effect={fadeDirection}>
+                <div className={load + " musical"}>
                     <div>
                         <img className="center-cropped" src={require("../images/" + this.props.musical.image)} />
                     </div>
@@ -48,12 +47,9 @@ class Resume extends Component {
             );
         });
 
-        let fadeLeft = true;
         const musicals = resumeStrings.musicals.map((musical) => {
-            fadeLeft = !fadeLeft;
             return (
                 <Musical
-                    fadeLeft={fadeLeft}
                     musical={musical}
                 />
             );

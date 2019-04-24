@@ -20,13 +20,21 @@
     /* IE 10+, Fx 29+ */
 }
 
+.resume li {
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.1em;
+    font-weight: 300;
+    line-height: 1.7em;
+    color: rgb(100, 100, 100);
+}
+
 .musical {
     display: flex;
     align-items: center;
     margin: 10px;
 }
 
-.musical div  {
+.musical div {
     margin: 10px;
     align-content: center;
 }

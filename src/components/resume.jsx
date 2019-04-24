@@ -56,7 +56,7 @@ class Resume extends Component {
         });
 
         return (
-            <div>
+            <div className="resume">
                 <p>{resumeStrings.intro.body}</p>
                 <h2>{resumeStrings.instruments.title}</h2>
                 <ul>

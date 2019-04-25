@@ -1,19 +1,27 @@
 self.__precacheManifest = [
   {
-    "revision": "34f1b8acccd555042228",
-    "url": "/nadia-portfolio/static/css/main.aaf27ccc.chunk.css"
+    "revision": "a7a240d791ea00559dee",
+    "url": "/nadia-portfolio/static/css/main.4e56b50f.chunk.css"
   },
   {
-    "revision": "34f1b8acccd555042228",
-    "url": "/nadia-portfolio/static/js/main.b5ab882e.chunk.js"
+    "revision": "a7a240d791ea00559dee",
+    "url": "/nadia-portfolio/static/js/main.574a282d.chunk.js"
   },
   {
     "revision": "ab799870f75a9a838ef7",
     "url": "/nadia-portfolio/static/js/runtime~main.e4b8b8d1.js"
   },
   {
-    "revision": "ed6d75cdd9b3694b17bc",
-    "url": "/nadia-portfolio/static/js/2.aabc3279.chunk.js"
+    "revision": "e1a2b1aab253d210f6a6",
+    "url": "/nadia-portfolio/static/js/2.9e61682b.chunk.js"
+  },
+  {
+    "revision": "1f97b38205b47f646f3451f4927bd941",
+    "url": "/nadia-portfolio/static/media/nadia-home.1f97b382.jpg"
+  },
+  {
+    "revision": "e98e800e594c35978227b2a6afeb22c7",
+    "url": "/nadia-portfolio/static/media/nadia-resume.e98e800e.jpeg"
   },
   {
     "revision": "5d5d9eefa31e5e13a6610d9fa7a283bb",
@@ -76,7 +84,7 @@ self.__precacheManifest = [
     "url": "/nadia-portfolio/static/media/xhsm.21378d67.jpg"
   },
   {
-    "revision": "5226567d18b3e8550578f23750ddb4ef",
+    "revision": "80079eecaf4835a7ab3c574bb65037c8",
     "url": "/nadia-portfolio/index.html"
   }
 ];

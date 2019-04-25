@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 importScripts(
-  "/nadia-portfolio/precache-manifest.bdb272361982600304a8e327245055f6.js"
+  "/nadia-portfolio/precache-manifest.96adc0f6750a8ece88df1d3c08699ebc.js"
 );
 
 workbox.clientsClaim();

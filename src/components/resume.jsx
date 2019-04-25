@@ -56,14 +56,23 @@ class Resume extends Component {
         });
 
         return (
-            <div className="resume">
-                <p>{resumeStrings.intro.body}</p>
-                <h2>{resumeStrings.instruments.title}</h2>
-                <ul>
-                    <li>{resumeStrings.instruments.saxes}</li>
-                    <li>{resumeStrings.instruments.ewi.title}</li>
-                    <ul>{ewiSettings}</ul>
-                </ul>
+            <div id="resume">
+                <div className="row">
+                    <div className="col-md-8">
+                        <p>{resumeStrings.intro.body}</p>
+                        <h2>{resumeStrings.instruments.title}</h2>
+                        <ul>
+                            <li>{resumeStrings.instruments.saxes}</li>
+                            <li>{resumeStrings.instruments.ewi.title}</li>
+                            <ul>{ewiSettings}</ul>
+                        </ul>
+                    </div>
+                    <div className="creditImg col-md-4">
+                        <img src={require("../images/nadia-resume.jpeg")} />
+                        <p>Photo: Benjamin DeYoung</p>
+                    </div>
+                </div>
+
                 <div>{musicals}</div>
             </div>
         );

@@ -22,7 +22,7 @@ class Sidebar extends Component {
                         <a href="#projectSubmenu" data-toggle="collapse" aria-expanded="false" class="dropdown-toggle">IB MYP Personal</a>
                         <ul class="collapse list-unstyled" id="projectSubmenu">
                             <li>
-                                <a href="#">IB MYP Personal Project</a>
+                                <a onClick={() => this.props.setComponent("IB MYP Personal Project")}>IB MYP Personal Project</a>
                             </li>
                             <li>
                                 <a href="#">Process Journal</a>

@@ -16,7 +16,7 @@ class Home extends Component {
                             <h2>{homeStrings.background.title}</h2>
                             <p>
                                 {homeStrings.background.body1}
-                                <span className="link" onClick={() => this.props.onClick("Project")}>{homeStrings.background.linkedProject}</span>
+                                <span className="link" onClick={() => this.props.onClick("IB MYP Personal Project")}>{homeStrings.background.linkedProject}</span>
                                 {homeStrings.background.body2}
                                 <span className="link" onClick={() => this.props.onClick("Resume")}>{homeStrings.background.linkedResume}</span>
                                 {homeStrings.background.body3}

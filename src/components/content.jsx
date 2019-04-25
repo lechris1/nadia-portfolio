@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import '../css/content.css';
 import Home from './home';
 import Resume from './resume';
+import Project from './project';
 
 class Content extends Component {
     constructor(props) {
@@ -28,9 +29,9 @@ class Content extends Component {
             case "Resume":
                 component = <Resume />
                 break;
-            // case "IB MYP Personal Project":
-            //     component = <Project />
-            //     break;
+            case "IB MYP Personal Project":
+                component = <Project />
+                break;
             // case "Process Journal":
             //     component = <Journal />
             //     break;

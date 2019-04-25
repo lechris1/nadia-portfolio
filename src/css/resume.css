@@ -28,17 +28,6 @@
     color: rgb(100, 100, 100);
 }
 
-.musical{
-    display: flex;
-    align-items: center;
-    margin: 10px;
-}
-
-.musical div {
-    margin: 10px;
-    align-content: center;
-}
-
 .center-cropped {
     object-fit: cover;
     /* Do not scale the image */
@@ -46,4 +35,5 @@
     /* Center the image within the element */
     height: 100px;
     width: 100px;
+    /* max-width: 100%; */
 }

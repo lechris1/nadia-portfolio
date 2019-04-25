@@ -20,15 +20,15 @@ class Musical extends Component {
     render() {
         let load = this.state.load ? "animated fadeInRight" : "animate-box";
         return (
-            <div >
+            <div className="col-md-6">
                 <Waypoint
                     onEnter={() => this.loadMusical()}
                 />
-                <div className={load + " musical"}>
-                    <div>
+                <div className={load + " musical row"}>
+                    <div className="col-xl-3">
                         <img className="center-cropped" src={require("../images/" + this.props.musical.image)} />
                     </div>
-                    <div>
+                    <div className="col-xl-9">
                         <p>{this.props.musical.yearlocation}<br />
                             {this.props.musical.title}<br />
                             {this.props.musical.instruments}</p>
@@ -73,7 +73,7 @@ class Resume extends Component {
                     </div>
                 </div>
 
-                <div>{musicals}</div>
+                <div className="row">{musicals}</div>
             </div>
         );
     }

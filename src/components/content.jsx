@@ -3,6 +3,7 @@ import '../css/content.css';
 import Home from './home';
 import Resume from './resume';
 import Project from './project';
+import Journal from './journal';
 
 class Content extends Component {
     constructor(props) {
@@ -30,11 +31,13 @@ class Content extends Component {
                 component = <Resume />
                 break;
             case "IB MYP Personal Project":
-                component = <Project />
+                component = <Project
+                    onClick={(nextComponent) => this.setComponent(nextComponent)}
+                />
                 break;
-            // case "Process Journal":
-            //     component = <Journal />
-            //     break;
+            case "Process Journal":
+                component = <Journal />
+                break;
             // case "Report":
             //     component = <Report />
             //     break;

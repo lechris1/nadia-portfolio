@@ -5,7 +5,7 @@ import { homeStrings } from '../res/strings';
 class Home extends Component {
     render() {
         return (
-            <div>
+            <div className="animated fadeIn">
                 <div className="row">
                     <div className="col-md-8">
                         <div>

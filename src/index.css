@@ -35,3 +35,14 @@ a, a:hover, a:focus {
 .creditImg img {
   max-width: 100%;
 }
+
+.fadeIn {
+  -webkit-animation: fadeIn 1.5s;
+  /* Safari 4+ */
+  -moz-animation: fadeIn 1.5s;
+  /* Fx 5+ */
+  -o-animation: fadeIn 1.5s;
+  /* Opera 12+ */
+  animation: fadeIn 1.5s;
+  /* IE 10+, Fx 29+ */
+}

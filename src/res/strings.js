@@ -207,10 +207,58 @@ const resumeStrings = {
             instruments: `Alto Saxophone`,
             image: `ejoseph.jpg`
         }
+    ],
+}
+
+const journalStrings = {
+    months: [
+        {
+            month: "August 2014",
+            body: `
+                For my tenth grade personal project, I knew that I wanted to do something 
+                that related to my passion for music. The issue was that there are many different 
+                possibilities in the realm of music, and I did not know what I should actually do 
+                for my personal project. The first thing I thought of was to rebuild a broken 
+                saxophone. I have been interested in learning about how saxophones work and how 
+                to repair them, so I thought that it would be the perfect opportunity to do so. 
+                However, after looking for a non-working saxophone on the internet, I realized 
+                that this project would be very costly. Also, after doing some research on 
+                re-padding saxophones, I realized that I would have to learn from an expert 
+                saxophone technician. Therefore, I would not be able to complete this project 
+                independently. For these reasons, I decided against this idea.<br/>
+
+                After I rejected that idea, I had two ideas remaining. I could learn a difficult 
+                song on my alto saxophone and perform it at Solo & Ensemble, or I could learn a 
+                multi-part piece and record it, since I can play multiple types of saxophones. 
+                After thinking about the two options, I realized that I could combine the two ideas. 
+                I quickly went to my computer and searched for saxophone quartet sheet music. 
+                The search for a fun yet challenging saxophone quartet piece began.<br/>
+
+                As I searched for music, I thought about what level would be challenging enough for 
+                this project and for my skill level. In band class, we usually play music that is 
+                around medium difficulty. I have a pretty easy time with this difficulty of music, 
+                except for the occasional song or 16th-note run. At first, I was looking up songs 
+                that were in the medium advanced range. Some songs I considered that were in this 
+                range were "Alexander’s Ragtime Band" and "Mancini Digs That Mambo." For some unknown 
+                reason, I decided to look at the advanced level songs too. This is where I found the 
+                song "Paquito de Habana". I fell in love with this song. I love playing Latin-style 
+                music as well as jazz, so I knew that this song would be perfect. It did not matter 
+                to me that it was an advanced level piece. I figured that it would be good if I really 
+                challenged myself, since this was for my personal project.<br/>
+                
+                My parents ordered the song, and it arrived in the mail a few days later. When I first 
+                saw all the music, I was shocked. I did not expect there to be so much music. However, 
+                the music included a score and a transcription of the soprano saxophone part for alto 
+                saxophone, as well as all the other parts. I was very excited to start learning the 
+                parts, beginning with the baritone saxophone part, since the bass part in Latin-style 
+                music is very important.`
+        }
     ]
+
 }
 
 export {
     homeStrings,
     resumeStrings,
+    journalStrings,
 }

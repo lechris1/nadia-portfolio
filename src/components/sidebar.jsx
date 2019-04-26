@@ -25,7 +25,7 @@ class Sidebar extends Component {
                                 <a onClick={() => this.props.setComponent("IB MYP Personal Project")}>IB MYP Personal Project</a>
                             </li>
                             <li>
-                                <a href="#">Process Journal</a>
+                                <a onClick={() => this.props.setComponent("Process Journal")}>Process Journal</a>
                             </li>
                             <li>
                                 <a href="#">Report</a>

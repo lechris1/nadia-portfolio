@@ -26,12 +26,12 @@ class Musical extends Component {
                 />
                 <div className={load + " musical row"}>
                     <div className="col-xl-3">
-                        <img className="center-cropped" src={require("../images/" + this.props.musical.image)} />
+                        <img className="center-cropped" src={require("../images/" + this.props.image)} />
                     </div>
                     <div className="col-xl-9">
-                        <p>{this.props.musical.yearlocation}<br />
-                            {this.props.musical.title}<br />
-                            {this.props.musical.instruments}</p>
+                        <p>{this.props.yearlocation}<br />
+                            {this.props.title}<br />
+                            {this.props.instruments}</p>
                     </div>
                 </div>
             </div>
@@ -50,13 +50,16 @@ class Resume extends Component {
         const musicals = resumeStrings.musicals.map((musical) => {
             return (
                 <Musical
-                    musical={musical}
+                    yearlocation={musical.yearlocation}
+                    title={musical.title}
+                    instruments={musical.instruments}
+                    image={musical.image}
                 />
             );
         });
 
         return (
-            <div id="resume">
+            <div id="resume" className="animated fadeIn">
                 <div className="row">
                     <div className="col-md-8">
                         <p>{resumeStrings.intro.body}</p>

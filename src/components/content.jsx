@@ -4,6 +4,8 @@ import Home from './home';
 import Resume from './resume';
 import Project from './project';
 import Journal from './journal';
+import Report from './report';
+import Biblio from './biblio';
 
 class Content extends Component {
     constructor(props) {
@@ -38,12 +40,12 @@ class Content extends Component {
             case "Process Journal":
                 component = <Journal />
                 break;
-            // case "Report":
-            //     component = <Report />
-            //     break;
-            // case "Bibliography":
-            //     component = <Biblio />
-            //     break;
+            case "Report":
+                component = <Report />
+                break;
+            case "Bibliography":
+                component = <Biblio />
+                break;
         }
         return component;
     }

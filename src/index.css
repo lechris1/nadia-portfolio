@@ -32,8 +32,9 @@ a, a:hover, a:focus {
   text-align: center;
 }
 
-.creditImg img {
+.creditImg img, .creditImg p {
   max-width: 100%;
+  word-wrap: break-word;
 }
 
 .fadeIn {

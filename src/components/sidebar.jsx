@@ -11,7 +11,7 @@ class Sidebar extends Component {
                     <h3>Nadia<br />Jean</h3>
                 </div>
                 <ul className="list-unstyled components">
-                    <p>Yeet</p>
+                    <p>nom >:3</p>
                     <li>
                         <a onClick={() => this.props.setComponent("Home")}>Home</a>
                     </li>
@@ -28,10 +28,10 @@ class Sidebar extends Component {
                                 <a onClick={() => this.props.setComponent("Process Journal")}>Process Journal</a>
                             </li>
                             <li>
-                                <a href="#">Report</a>
+                                <a onClick={() => this.props.setComponent("Report")}>Report</a>
                             </li>
                             <li>
-                                <a href="#">Bibliography</a>
+                                <a onClick={() => this.props.setComponent("Bibliography")}>Bibliography</a>
                             </li>
                         </ul>
                     </li>

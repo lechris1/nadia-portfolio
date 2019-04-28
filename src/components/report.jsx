@@ -5,7 +5,7 @@ import { reportStrings } from '../res/strings';
 function Carousel(props) {
     return (
         <div id="carouselContainer" className="row justify-content-center">
-            <div id="carouselExampleIndicators" className="carousel slide col-lg-6" data-ride="carousel">
+            <div id="carouselExampleIndicators" className="carousel slide col-lg-6" >
                 <ol className="carousel-indicators">
                     <li data-target="#carouselExampleIndicators" data-slide-to={0} className="active" />
                     <li data-target="#carouselExampleIndicators" data-slide-to={1} />
@@ -19,43 +19,34 @@ function Carousel(props) {
                     <div className="carousel-item active">
                         <img className="d-block w-100" src={require("../images/carousel1.jpg")} alt="First slide" />
                         <div className="carousel-caption d-none d-md-block">
-                            <p>poggers</p>
+                            <p>Recording the tenor saxophone.</p>
                         </div>
                     </div>
                     <div className="carousel-item">
                         <img className="d-block w-100" src={require("../images/carousel2.jpg")} alt="Second slide" />
-                        <div className="carousel-caption d-none d-md-block">
-                            <p>poggers</p>
-                        </div>
                     </div>
                     <div className="carousel-item">
                         <img className="d-block w-100" src={require("../images/carousel3.jpg")} alt="Third slide" />
-                        <div className="carousel-caption d-none d-md-block">
-                            <p>poggers</p>
-                        </div>
                     </div>
                     <div className="carousel-item">
                         <img className="d-block w-100" src={require("../images/carousel4.jpg")} alt="Third slide" />
                         <div className="carousel-caption d-none d-md-block">
-                            <p>poggers</p>
+                            <p>Recording the baritone saxophone.</p>
                         </div>
                     </div>
                     <div className="carousel-item">
                         <img className="d-block w-100" src={require("../images/carousel5.png")} alt="Third slide" />
-                        <div className="carousel-caption d-none d-md-block">
-                            <p>poggers</p>
-                        </div>
                     </div>
                     <div className="carousel-item">
                         <img className="d-block w-100" src={require("../images/carousel6.png")} alt="Third slide" />
                         <div className="carousel-caption d-none d-md-block">
-                            <p>poggers</p>
+                            <p>After all parts were recorded on Cubase.</p>
                         </div>
                     </div>
                     <div className="carousel-item">
                         <img className="d-block w-100" src={require("../images/carousel7.png")} alt="Third slide" />
                         <div className="carousel-caption d-none d-md-block">
-                            <p>poggers</p>
+                            <p>Mixing the tracks together and adding EQ, compression, and reverb.</p>
                         </div>
                     </div>
                 </div>

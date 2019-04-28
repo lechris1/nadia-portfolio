@@ -1,11 +1,11 @@
 self.__precacheManifest = [
   {
-    "revision": "e862a8c0a6af6277a05e",
-    "url": "/nadia-portfolio/static/css/main.3a12734a.chunk.css"
+    "revision": "a95ba1e4298ed80b071f",
+    "url": "/nadia-portfolio/static/css/main.92909b5a.chunk.css"
   },
   {
-    "revision": "e862a8c0a6af6277a05e",
-    "url": "/nadia-portfolio/static/js/main.961a2737.chunk.js"
+    "revision": "a95ba1e4298ed80b071f",
+    "url": "/nadia-portfolio/static/js/main.fd185030.chunk.js"
   },
   {
     "revision": "ab799870f75a9a838ef7",
@@ -128,7 +128,7 @@ self.__precacheManifest = [
     "url": "/nadia-portfolio/static/media/xhsm.21378d67.jpg"
   },
   {
-    "revision": "4cdd0feaedd04c8b457b3e9d003b9c14",
+    "revision": "1d9da05c86e5623923451f7ee056196c",
     "url": "/nadia-portfolio/index.html"
   }
 ];

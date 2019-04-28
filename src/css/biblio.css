@@ -1,0 +1,9 @@
+.source {
+    word-wrap: break-word;
+    transition: all 0.5s;
+}
+
+.source:hover {
+    background-color: rgb(240, 240, 240);
+    transition: all 0.5s;
+}

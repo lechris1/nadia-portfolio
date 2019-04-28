@@ -6,6 +6,7 @@ import Project from './project';
 import Journal from './journal';
 import Report from './report';
 import Biblio from './biblio';
+import Contact from './contact';
 
 class Content extends Component {
     constructor(props) {
@@ -46,6 +47,9 @@ class Content extends Component {
             case "Bibliography":
                 component = <Biblio />
                 break;
+            case "Contact":
+                component = <Contact />
+                break;
         }
         return component;
     }
@@ -56,9 +60,9 @@ class Content extends Component {
                 className={this.props.sidebarCollapsed ? "active" : null}
             >
                 <div>
-                    <nav class="navbar navbar-expand-lg navbar-light">
-                        <button type="button" class="btn btn-outline-dark" onClick={this.props.collapseSidebar}>
-                            <i class="fa fa-align-left"></i>
+                    <nav className="navbar navbar-expand-lg navbar-light">
+                        <button type="button" className="btn btn-outline-dark" onClick={this.props.collapseSidebar}>
+                            <i className="fa fa-align-left"></i>
                             <span>Toggle Sidebar</span>
                         </button>
                     </nav>

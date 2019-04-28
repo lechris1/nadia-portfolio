@@ -598,9 +598,125 @@ const reportStrings = {
     ]
 }
 
+const biblioStrings = {
+    sources: [
+        {
+            author: "Becka, Kevin. ",
+            text: "Hellacious Horns. ",
+            everythingElse: "2014. 5 October 2014. <http://mixonline.com/basics/recordingtheband/audio_hellacious_horns/>."
+        },
+        {
+            author: "Boogalu Productions. ",
+            text: "History of Cuban Music. ",
+            everythingElse: "n.d. 5 October 2014. <http://www.boogalu.com/features/history-cuban-music>."
+        },
+        {
+            author: "Cakewalk. ",
+            text: "Sonar X3 User Guide. ",
+            everythingElse: "Cakewalk, 2013."
+        },
+        {
+            author: "Crofton, Craig. ",
+            text: "Latin Series 1. ",
+            everythingElse: "n.d. 5 October 2014. <http://www.promusictutor.com/sax/sax-techniques/latin-series-1-craig-crofton-sax-lesson>."
+        },
+        {
+            author: "Cubano. ",
+            text: "Popular Music in Cuba. ",
+            everythingElse: "5 December 2011. 5 October 2014. <http://www.cubano1.com/popular-music-in-cuba/>."
+        },
+        {
+            author: "D'Rivera, Paquito. ",
+            text: "My Sax Life. ",
+            everythingElse: "Evanston: Northwestern University Press, 2005."
+        },
+        {
+            author: "Ferguson, R. James. ",
+            text: "The Transnational Politics of Cuban Music and Cuban Culture. ",
+            everythingElse: "2003. 8 March 2015. <http://www.international-relations.com/wbcm6-1/WBCubanMusic.htm>."
+        },
+        {
+            author: "Garrigus, Scott R. ",
+            text: "Sonar X3 Power! The Comprehensive Guide. ",
+            everythingElse: "Boston: Cengage Learning, 2014."
+        },
+        {
+            author: "Greenbug Productions. ",
+            text: "Biography. ",
+            everythingElse: "2014. 5 October 2014. <http://www.paquitodrivera.com/bio/>."
+        },
+        {
+            author: "HirschMusic. ",
+            text: "Paquito de Habana. ",
+            everythingElse: "n.d. 5 October 2014. <https://soundcloud.com/hirschmusic/sq1003-paquito-de-habana-midi>."
+        },
+        {
+            author: "HirschMusic Publications. ",
+            text: "Paquito de Habana. ",
+            everythingElse: "n.d. 5 October 2014. <http://www.hirschmusic.com/saxes/paquito-de-habana>."
+        },
+        {
+            author: "Ilich, Tijana. ",
+            text: "Music of Cuba - History of Cuban Music. ",
+            everythingElse: "2014. 5 October 2014. <http://latinmusic.about.com/od/countrie1/p/PRO08BASIC.htm>."
+        },
+        {
+            author: "insightCuba. ",
+            text: "What music is Cuba famous for? ",
+            everythingElse: "2012-2014. 5 October 2014. <http://insightcuba.com/what-music-is-cuba-famous-for>."
+        },
+        {
+            author: "J.W. Pepper. ",
+            text: "Paquito de Habana. ",
+            everythingElse: "n.d. 5 October 2014. <http://www.jwpepper.com/Paquito-de-Habana/10288826.item#.VDHBevldViN>."
+        },
+        {
+            author: "Krantzberg, Eli. ",
+            text: "Sonar X3 Explained. ",
+            everythingElse: "2014. 5 October 2014. <http://www.groove3.com/str/SONAR-X3-Explained.html>."
+        },
+        {
+            author: "McIan, Peter and Larry Wichman. ",
+            text: "The Musician's Guide to Home Recording. ",
+            everythingElse: "New York City: Linden Press/Fireside, 1988."
+        },
+        {
+            author: "Orenstein, Doron. ",
+            text: "Sax Mic Positioning for Home Recording. ",
+            everythingElse: "2014. 5 October 2014. <http://www.bestsaxophonewebsiteever.com/sax-mic-positioning-for-home-recording/>."
+        },
+        {
+            author: "Pérez, Lisandro. ",
+            text: "Havana in the 1950s: “If You See Something, Say Something”. ",
+            everythingElse: "3 May 2013. 5 October 2014. <http://cubannewyorker.wordpress.com/2013/05/03/havana-in-the-1950s-if-you-see-something-say-something/>."
+        },
+        {
+            author: "Saxophone.org. ",
+            text: "Saxophone.org. ",
+            everythingElse: "1994-2015. 8 March 2015. <http://www.saxophone.org/forum/thread/id/1128/name/Sax+repadding>."
+        },
+        {
+            author: "Schrum, Robert T. ",
+            text: "Interview: Nadia J. Schrum. ",
+            everythingElse: "5 October 2014-2015."
+        },
+        {
+            author: "Senior, Mike. ",
+            text: "Mixing Secrets For The Small Studio. ",
+            everythingElse: "Burlington: Focal Press, 2011."
+        },
+        {
+            author: "Sierra, J. A. ",
+            text: "Cuba in the 1950s An Introduction. ",
+            everythingElse: "n.d. 5 October 2014. <http://www.historyofcuba.com/history/havana/fifties.htm>."
+        },
+    ]
+}
+
 export {
     homeStrings,
     resumeStrings,
     journalStrings,
-    reportStrings
+    reportStrings,
+    biblioStrings
 }
